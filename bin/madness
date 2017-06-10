@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require 'irb'
+require_relative '../max_multiplier'
+require_relative '../sorter'
+
+IRB.start

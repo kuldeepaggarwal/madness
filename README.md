@@ -49,6 +49,15 @@ MaxMultiplier.new('abc22345def', max_matchers: 5).calculate # => 240(2 * 2 * 3 *
 MaxMultiplier.new('abc22345def', behaviour: :+).calculate # => 14(2 + 3 + 4 + 5)
 ```
 
+There is an executable file where you can play with other options(its like Rails console)
+
+```sh
+$ bin/madness
+2.2.4 :001 > MaxMultiplier.new('abc22345def', behaviour: :+).calculate
+ => 14
+2.2.4 :002 >
+```
+
 ### Testing
 
 ```shell
