@@ -1,5 +1,4 @@
 require 'spec_helper'
-require_relative '../sorter'
 
 describe Sorter do
   it 'sorts the array by amount of "1" in binary representation' do

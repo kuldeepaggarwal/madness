@@ -1,5 +1,4 @@
 require 'spec_helper'
-require_relative '../max_multiplier'
 
 describe MaxMultiplier do
   it 'finds max multiplication of 4 consequetive numbers' do
